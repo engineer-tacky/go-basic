@@ -15,9 +15,13 @@ func main() {
 
 	// 変数宣言省略形 (関数内でしか記述できない)
 	xi := 1
-	xf64 := 1.2
+	// 型を明示的に指定する場合は、varを使用する
+	var xf32 float32 = 1.2
 	xs := "test"
 	xt, xf := true, false
-	fmt.Println(xi, xf64, xs, xt, xf)
+	fmt.Println(xi, xf32, xs, xt, xf)
+
+	// xf32の型を調べる
+	fmt.Printf("%T\n", xf32)
 
 }
