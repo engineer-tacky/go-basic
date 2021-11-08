@@ -1,13 +1,14 @@
 package main
 
-// 複数インポートする場合は、丸括弧の中に記述していく
-import (
-	"fmt"
-	"os/user"
-	"time"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello world!", time.Now())
-	fmt.Println(user.Current())
+	// 変数宣言
+	var i int = 1
+	var f64 float64 = 1.2
+	var s string = "test"
+	var t bool = true
+	var f bool = false
+
+	fmt.Println(i, f64, s, t, f)
 }
