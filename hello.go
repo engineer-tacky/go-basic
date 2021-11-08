@@ -1,20 +1,13 @@
 package main
 
-import "fmt"
-
-/*
-複数行コメントアウト
-func init() {
-	fmt.Println("Init")
-}
-*/
-
-func Buzz() {
-	fmt.Println("Bazz")
-}
+// 複数インポートする場合は、丸括弧の中に記述していく
+import (
+	"fmt"
+	"os/user"
+	"time"
+)
 
 func main() {
-	// １行コメントアウト
-	// Buzz()
-	fmt.Println("Hello world!")
+	fmt.Println("Hello world!", time.Now())
+	fmt.Println(user.Current())
 }
