@@ -3,12 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	// 変数宣言
-	var i int = 1
-	var f64 float64 = 1.2
-	var s string = "test"
-	var t bool = true
-	var f bool = false
+	// 変数の複数宣言
+	var (
+		i    int     = 1
+		f64  float64 = 1.2
+		s    string  = "test"
+		t, f bool    = true, false
+	)
 
 	fmt.Println(i, f64, s, t, f)
 }
