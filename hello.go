@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	// array.go => Fruit()
-	Fruit()
+	// array.go => printArray()
+	printArray()
 }
