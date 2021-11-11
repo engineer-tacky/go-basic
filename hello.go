@@ -2,5 +2,8 @@ package main
 
 func main() {
 	// array.go => printArray()
-	printArray()
+	// printArray()
+
+	// array.go => printArrayMap()
+	printMap()
 }
