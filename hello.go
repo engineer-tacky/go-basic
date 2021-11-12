@@ -5,5 +5,8 @@ func main() {
 	// printArray()
 
 	// array.go => printArrayMap()
-	printMap()
+	// printMap()
+
+	// array.go => ifStatement()
+	ifStatement()
 }
