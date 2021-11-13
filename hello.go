@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	// array.go => printArray()
 	// printArray()
@@ -13,9 +11,13 @@ func main() {
 	// ifStatement()
 
 	// func.go => addMaxMin()
-	total := addMaxMin(10, 1)
-	fmt.Println(total)
+	// total := addMaxMin(10, 1)
+	// fmt.Println(total)
 
-	total2 := addSomeNumbers(1, 2, 3, 4)
-	fmt.Println(total2)
+	// func.go => addSomeNumbers()
+	// total2 := addSomeNumbers(1, 2, 3, 4)
+	// fmt.Println(total2)
+
+	// for.go => forStatement()
+	forStatement()
 }
