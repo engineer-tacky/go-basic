@@ -19,5 +19,8 @@ func main() {
 	// fmt.Println(total2)
 
 	// for.go => forStatement()
-	forStatement()
+	// forStatement()
+
+	// range.go => rangeStatement()
+	rangeStatement()
 }
