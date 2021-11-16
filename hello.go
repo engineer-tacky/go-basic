@@ -22,5 +22,8 @@ func main() {
 	// forStatement()
 
 	// range.go => rangeStatement()
-	rangeStatement()
+	// rangeStatement()
+
+	// switch.go => switchStatement()
+	switchStatement()
 }
