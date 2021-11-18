@@ -28,5 +28,8 @@ func main() {
 	// switchStatement()
 
 	// defer.go => deferStatement()
-	deferStatement()
+	// deferStatement()
+
+	// log.go => logStatement()
+	logStatement()
 }
